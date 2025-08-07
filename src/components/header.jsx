@@ -9,11 +9,11 @@ export default function Header() {
             <div>
                 <img src={ `` } />
                 <nav>
-                    <Href Title={`HOME`} Redirect={`/`} />
-                    <Href Title={`MERCH`} Redirect={`/merch`} />
-                    <Href Title={`GALLERY`} Redirect={`/gallery`} />
-                    <Href Title={`MILESTONE`} Redirect={`/milestone`} />
-                    <Href Title={`ABOUT`} Redirect={`/about`} />
+                    <Href Title={`HOME`} Redirect={`/WebEnhanced-Project/`} />
+                    <Href Title={`MERCH`} Redirect={`/WebEnhanced-Project/merch`} />
+                    <Href Title={`GALLERY`} Redirect={`/WebEnhanced-Project/gallery`} />
+                    <Href Title={`MILESTONE`} Redirect={`/WebEnhanced-Project/milestone`} />
+                    <Href Title={`ABOUT`} Redirect={`/WebEnhanced-Project/about`} />
                 </nav>
             </div>
         </header>

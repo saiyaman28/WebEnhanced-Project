@@ -9,11 +9,11 @@ export default function App() {
     return (
         <Router>
             <Routes>
-                <Route path='/' element={<LandingPage />} />
-                <Route path='/merch' element={<MerchPage />} />
-                <Route path='/gallery' element={<GalleryPage />} />
-                <Route path='/milestone' element={<MilestonePage />} />
-                <Route path='/about' element={<AboutPage />} />
+                <Route path='/WebEnhanced-Project/' element={<LandingPage />} />
+                <Route path='/WebEnhanced-Project/merch' element={<MerchPage />} />
+                <Route path='/WebEnhanced-Project/gallery' element={<GalleryPage />} />
+                <Route path='/WebEnhanced-Project/milestone' element={<MilestonePage />} />
+                <Route path='/WebEnhanced-Project/about' element={<AboutPage />} />
             </Routes>
         </Router>
     )
